@@ -9,4 +9,3 @@ function reducer(state, action) {
       return state;
   }
 }
-reducer({count: 0}, {type: 'INCREASE_COUNT'});
