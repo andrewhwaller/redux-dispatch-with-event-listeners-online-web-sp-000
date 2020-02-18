@@ -13,3 +13,8 @@ function reducer(state, action) {
 function dispatch(action) {
   state = reducer(state, action)
 }
+
+function render() {
+  let container = document.getElementById("container")
+  container.textContent = state.count
+}
